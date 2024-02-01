@@ -5,7 +5,7 @@ def sum_of_products(list1, list2):
     else:
         for i in range(0, len(list1)):
              score += int(list1[i]) * int(list2[i])
-             print(score)
+        print(score)
 
 if __name__ == '__main__':
    list1 = input().split()
