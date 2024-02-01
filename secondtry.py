@@ -4,8 +4,8 @@ def sum_of_products(list1, list2):
        print("Error")
     else:
         for i in range(0, len(list1)):
-                score += list1(i) * list2(i)
-                print(score)
+             score += list1[i] * list2[i]
+             print(score)
 
 
 if __name__ == '__main__':
