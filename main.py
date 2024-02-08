@@ -11,3 +11,4 @@ if __name__ == '__main__':
    list1 = input().split()
    list2 = input().split()
    print(sum_of_products(list1, list2))
+#test
